@@ -1,0 +1,10 @@
+Algoritmo Ejercicio4
+	Definir num, cuadrado Como Real
+	Leer num
+	cuadrado <- num * num
+	Si cuadrado > num Entonces
+		Imprimir "El resultado de la operación es mayor que el valor original"
+	SiNo
+		Imprimir "El resultado de la operación NO es mayor que el valor original"
+	FinSi
+FinAlgoritmo

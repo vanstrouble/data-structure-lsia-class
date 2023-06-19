@@ -1,0 +1,26 @@
+Algoritmo Ejercicio3
+	Definir filas, columnas, capas, cubo, valorMayor, c1, c2,c3, i, j, k Como Entero
+	valorMayor <- 0
+	c1 <- 0
+	c2 <- 0
+	c3 <- 0
+	Leer filas
+	Leer columnas
+	Leer capas
+	Dimension cubo[filas, columnas, capas]
+	Para i = 1 hasta filas Con Paso 1
+		Para j = 1 hasta columnas Con Paso 1
+			Para k = 1 hasta capas Con Paso 1
+				leer cubo[i, j, k]
+				Si valorMayor < cubo[i, j, k] Entonces
+					valorMayor <- cubo[i, j, k]
+					c1 <- i
+					c2 <- j
+					c3 <- k
+				Fin Si
+			FinPara
+		FinPara
+	FinPara
+	Imprimir "El valor mayor es: " valorMayor 
+	Imprimir "Coordenadas [" i "]" "[" j "]" "[" k "]"
+FinAlgoritmo

@@ -1,0 +1,20 @@
+Algoritmo Ejercicio1
+	Definir tamaño, sumaFilas, matriz, fila, columna Como Entero
+	Definir promedio Como Real
+	promedio <- 0
+	leer tamaño
+	Dimension matriz[tamaño, tamaño]
+	Para fila = 1 Hasta  tamaño Con Paso 1
+		Para columna = 1 hasta tamaño Con Paso 1
+			leer matriz[fila, columna]
+		FinPara
+	FinPara
+	Para fila = 1 Hasta  tamaño Con Paso 1
+		sumaFilas = 0
+		Para columna = 1 hasta tamaño Con Paso 1
+			sumaFilas = sumaFilas + matriz[fila, columna]
+			promedio = sumaFilas / tamaño
+		FinPara
+		Imprimir "promedio" promedio
+	FinPara
+FinAlgoritmo

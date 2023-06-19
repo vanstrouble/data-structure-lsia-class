@@ -1,0 +1,6 @@
+Algoritmo pordos
+	Definir dato, resultado Como Real
+	Leer dato
+	resultado = dato * 2
+	Imprimir resultado
+FinAlgoritmo

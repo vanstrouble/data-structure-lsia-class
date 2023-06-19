@@ -1,0 +1,15 @@
+Algoritmo Ejercicio2
+	Definir num Como Entero
+	Leer num 
+	Si num % 2 == 0 y num % 3 == 0 Entonces
+		imprimir "Número divisible entre ambos" 
+	FinSi
+	Si num % 2 == 0 Entonces
+		imprimir "Número divisible entre 2" 
+	FinSi
+	Si num % 3 == 0 Entonces
+			imprimir "Número divisible entre 3" 
+	SiNo
+		imprimir "Número no divisible entre ninguno" 
+	FinSi
+FinAlgoritmo
